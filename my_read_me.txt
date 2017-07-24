@@ -12,10 +12,12 @@ Vue JS 2 Tutorial #35 - Filters -
 Vue JS 2 Tutorial #36 - Custom Search Filter
 1 - https://www.youtube.com/watch?v=G34_yNV8FMY&index=36&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
 2 - 
-
-
-
-
 Vue JS 2 Tutorial #37 - Registering Things Locally
 1 - https://www.youtube.com/watch?v=T5h6L5MFLRA&index=37&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
+2 - 
+
+
+
+Vue JS 2 Tutorial #38 - Mixins
+1 - https://www.youtube.com/watch?v=YZuml1Y9BmQ&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=38
 2 - 

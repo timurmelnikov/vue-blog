@@ -1,6 +1,6 @@
 <template>
   <div v-theme:column="'narrow'" id="show-blogs">
-      <h1>All Blog Articles</h1>
+    <h1>All Blog Articles</h1>
     <input v-focus v-model="search" type="text" placeholder="search blogs"></input>
     <div v-for="blog in filtredBlogs" class="single-blog">
       <h2 v-rainbow>{{ blog.title | to-uppercase }}</h2>
@@ -38,6 +38,20 @@
         inserted: function (el) {
           // Переключаем фокус на элемент
           el.focus()
+        }
+      }
+    },
+    filters: {
+
+      toUppercase (value) {
+        return value.toUpperCase()
+      }
+
+    },
+    directives: {
+      'rainbow': {
+        bind (el, binding, vnode) {
+          el.style.color = '#' + Math.random().toString(16).slice(2, 8)
         }
       }
     }
