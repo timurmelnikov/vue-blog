@@ -5,7 +5,8 @@ import VueResource from 'vue-resource'
 Vue.use(VueResource)
 
 // Custom directives global
-Vue.directive('theme', {
+Vue.directive(
+  'theme', {
   bind(el, binding, vnode) {
     if (binding.value == 'wide') {
       el.style.maxWidth = '1260px'

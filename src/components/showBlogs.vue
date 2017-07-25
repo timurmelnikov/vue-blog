@@ -1,7 +1,7 @@
 <template>
   <div v-theme:column="'narrow'" id="show-blogs">
     <h1>All Blog Articles</h1>
-    <input v-focus v-model="search" type="text" placeholder="search blogs"></input>
+    <input v-model="search" v-focus type="text" placeholder="search blogs"></input>
     <div v-for="blog in filtredBlogs" class="single-blog">
       <h2 v-rainbow>{{ blog.title | to-uppercase }}</h2>
       <article>{{ blog.body | snippet }}</article>
@@ -33,22 +33,21 @@
         this.blogs = data.body.slice(0, 10)
       })
     },
-    directives: {
-      focus: {
-        inserted: function (el) {
-          // Переключаем фокус на элемент
-          el.focus()
-        }
-      }
-    },
-    filters: {
 
+    filters: {
       toUppercase (value) {
         return value.toUpperCase()
       }
-
     },
+
     directives: {
+      'focus': {
+        bind (el) {
+          // Переключаем фокус на элемент (работает через таймер)
+          setTimeout(() => { el.focus() }, 0);
+        }
+      },
+
       'rainbow': {
         bind (el, binding, vnode) {
           el.style.color = '#' + Math.random().toString(16).slice(2, 8)
