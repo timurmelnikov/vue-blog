@@ -15,9 +15,13 @@ Vue JS 2 Tutorial #36 - Custom Search Filter
 Vue JS 2 Tutorial #37 - Registering Things Locally
 1 - https://www.youtube.com/watch?v=T5h6L5MFLRA&index=37&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
 2 - 
-
-
-
 Vue JS 2 Tutorial #38 - Mixins
 1 - https://www.youtube.com/watch?v=YZuml1Y9BmQ&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=38
+2 - https://ru.vuejs.org/v2/guide/mixins.html
+
+
+
+
+Vue JS 2 Tutorial #39 - Setting up Routing
+1 - https://www.youtube.com/watch?v=Zflo2-s4768&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=39
 2 - 
