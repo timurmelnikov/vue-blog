@@ -18,10 +18,12 @@ Vue JS 2 Tutorial #37 - Registering Things Locally
 Vue JS 2 Tutorial #38 - Mixins
 1 - https://www.youtube.com/watch?v=YZuml1Y9BmQ&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=38
 2 - https://ru.vuejs.org/v2/guide/mixins.html
-
-
-
-
 Vue JS 2 Tutorial #39 - Setting up Routing
 1 - https://www.youtube.com/watch?v=Zflo2-s4768&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=39
+2 - https://ru.vuejs.org/v2/guide/routing.html#ad
+
+
+
+Vue JS 2 Tutorial #40 - Hash vs History (Routing)
+1 - https://www.youtube.com/watch?v=js5Sr_ZSHDs&index=40&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
 2 - 
