@@ -11,7 +11,6 @@
 </template>
 
 <script>
-
   import searchMixin from '../mixins/searchMixin'
   export default {
     data () {
@@ -40,7 +39,7 @@
       'focus': {
         bind (el) {
           // Переключаем фокус на элемент (работает через таймер)
-          setTimeout(() => { el.focus() }, 0);
+          setTimeout(() => { el.focus() }, 0)
         }
       },
 

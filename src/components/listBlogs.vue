@@ -10,49 +10,48 @@
 </template>
 
 <script>
-
 import searchMixin from '../mixins/searchMixin'
 
-  export default {
-    data () {
-      return {
-        blogs: [],
-        search: ''
+export default {
+  data () {
+    return {
+      blogs: [],
+      search: ''
+    }
+  },
+  methods: {
+  },
+  computed: {
+  },
+  created () {
+    this.$http.get('http://jsonplaceholder.typicode.com/posts').then(function (data) {
+      this.blogs = data.body.slice(0, 10)
+    })
+  },
+
+  mixins: [searchMixin],
+
+  filters: {
+    toUppercase (value) {
+      return value.toUpperCase()
+    }
+  },
+
+  directives: {
+    'focus': {
+      bind (el) {
+        // Переключаем фокус на элемент (работает через таймер)
+        setTimeout(() => { el.focus() }, 0)
       }
     },
-    methods: {
-    },
-    computed: {
-    },
-    created () {
-      this.$http.get('http://jsonplaceholder.typicode.com/posts').then(function (data) {
-        this.blogs = data.body.slice(0, 10)
-      })
-    },
 
-    mixins: [searchMixin],
-
-    filters: {
-      toUppercase (value) {
-        return value.toUpperCase()
-      }
-    },
-
-    directives: {
-      'focus': {
-        bind (el) {
-          // Переключаем фокус на элемент (работает через таймер)
-          setTimeout(() => { el.focus() }, 0);
-        }
-      },
-
-      'rainbow': {
-        bind (el, binding, vnode) {
-          el.style.color = '#' + Math.random().toString(16).slice(2, 8)
-        }
+    'rainbow': {
+      bind (el, binding, vnode) {
+        el.style.color = '#' + Math.random().toString(16).slice(2, 8)
       }
     }
   }
+}
 </script>
 
 <style>

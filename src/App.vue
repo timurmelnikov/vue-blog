@@ -16,19 +16,19 @@
     import listBlogs from './components/listBlogs.vue'
 
     export default {
-        components: {
-            // 'add-blog': addBlog
-            'show-blogs': showBlogs,
-            'list-blogs': listBlogs
-        },
-        data () {
-            return {
-
-            }
-        },
-        methods: {
+      components: {
+        // 'add-blog': addBlog
+        'show-blogs': showBlogs,
+        'list-blogs': listBlogs
+      },
+      data () {
+        return {
 
         }
+      },
+      methods: {
+
+      }
     }
 </script>
 
