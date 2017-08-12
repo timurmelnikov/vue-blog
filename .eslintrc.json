@@ -1,29 +1,37 @@
 {
-  "env": {
-    "browser": true,
-    "commonjs": true,
-    "es6": true,
-    "node": true
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
     },
-    "sourceType": "module"
-  },
-  // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-  "extends": "standard",
-  // required to lint *.vue files
-  "plugins": [
-    "html"
-  ],
-  "rules": {
-    "no-const-assign": "warn",
-    "no-this-before-super": "warn",
-    "no-undef": "warn",
-    "no-unreachable": "warn",
-    "no-unused-vars": "warn",
-    "constructor-super": "warn",
-    "valid-typeof": "warn"
-  }
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn"
+    },
+    "extends": [
+        "standard",
+        "plugin:vue/recommended"
+      ],
+      "settings": {
+        "html/html-extensions": [
+          ".html"
+        ],
+        "html/report-bad-indent": "error"
+      },
+      // required to lint *.vue files
+      "plugins": [
+        "html"
+      ]
 }
