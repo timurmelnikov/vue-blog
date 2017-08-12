@@ -64,4 +64,8 @@
     box-sizing: border-box;
     background: #eee;
   }
+  
+  input {
+    box-sizing: border-box;
+  }
 </style>

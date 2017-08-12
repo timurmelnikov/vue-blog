@@ -24,9 +24,15 @@ Vue JS 2 Tutorial #39 - Setting up Routing
 Vue JS 2 Tutorial #40 - Hash vs History (Routing)
 1 - https://www.youtube.com/watch?v=js5Sr_ZSHDs&index=40&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
 2 - https://router.vuejs.org/ru/essentials/history-mode.html
-
-
-
 Vue JS 2 Tutorial #41 - Adding Router Links
 1 - https://www.youtube.com/watch?v=yn0_6T4HwHs&index=41&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
-2 - 
+2 -
+
+
+
+
+
+
+Vue JS 2 Tutorial #42 - Route Parameters
+1 - https://www.youtube.com/watch?v=KGFcgnCSS6A&index=42&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
+2 -  
