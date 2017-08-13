@@ -27,12 +27,12 @@ Vue JS 2 Tutorial #40 - Hash vs History (Routing)
 Vue JS 2 Tutorial #41 - Adding Router Links
 1 - https://www.youtube.com/watch?v=yn0_6T4HwHs&index=41&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
 2 -
-
-
-
-
-
-
 Vue JS 2 Tutorial #42 - Route Parameters
 1 - https://www.youtube.com/watch?v=KGFcgnCSS6A&index=42&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
 2 -  
+
+
+
+Vue JS 2 Tutorial #43 - Posting to Firebase
+1 - https://www.youtube.com/watch?v=CzJyGo5rh7M&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=43
+2 - 
