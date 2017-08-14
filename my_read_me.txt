@@ -30,9 +30,11 @@ Vue JS 2 Tutorial #41 - Adding Router Links
 Vue JS 2 Tutorial #42 - Route Parameters
 1 - https://www.youtube.com/watch?v=KGFcgnCSS6A&index=42&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
 2 -  
-
-
-
 Vue JS 2 Tutorial #43 - Posting to Firebase
 1 - https://www.youtube.com/watch?v=CzJyGo5rh7M&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=43
+2 - 
+
+
+Vue JS 2 Tutorial #44 - Retrieving Posts from Firebase
+1 - https://www.youtube.com/watch?v=ieCsEdq94TA&index=44&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa
 2 - 
